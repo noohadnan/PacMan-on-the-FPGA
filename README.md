@@ -2,6 +2,8 @@
 
 A hardware implementation of Pac-Man built for Altera/Intel FPGA development boards with VGA output and a PS/2 keyboard. The design renders a 21×21 tile maze at 160×120 resolution, draws sprites directly to the VGA controller, and lets players steer Pac-Man with the keyboard while hex displays show the collected pellets.
 
+![IMG_1398](https://github.com/user-attachments/assets/39137508-8cce-4aac-9ca5-a926520ae3ac)
+
 ## Repository layout
 - `Pacman.v`: Top-level module wiring the VGA adapter, PS/2 input, score displays, and the main game logic state machine.
 - `Map.v` and `MapController.v`: On-chip RAM map storage plus logic to fetch sprites and translate map coordinates to VGA pixels.
